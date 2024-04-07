@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<link href="Juegos.css" rel="stylesheet">
+<link href="Bienvenida-.css" rel="stylesheet">
+<style>
+    /* Agrega estilos CSS adicionales para hacer la página receptiva */
+    @media screen and (max-width: 767px) {
+        /* Estilos para pantallas de hasta 767px de ancho (Dispositivos móviles) */
+        #wb_Heading1 {
+            left: 50px;
+            width: auto;
+            font-size: 20px;
+        }
+        #wb_Heading2 {
+            left: 20px;
+            width: auto;
+            font-size: 24px;
+        }
+        #wb_Text1 {
+            left: 20px;
+            width: auto;
+            font-size: 14px;
+        }
+        #wb_Image3 {
+            display: none; /* Ocultar la imagen en la esquina superior derecha */
+        }
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        /* Estilos para pantallas de 768px a 991px de ancho (Tabletas) */
+        #wb_Heading1 {
+            left: 100px;
+            width: auto;
+            font-size: 28px;
+        }
+    }
+
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        /* Estilos para pantallas de 992px a 1199px de ancho (Tabletas y dispositivos de escritorio más pequeños) */
+        #wb_Heading1 {
+            left: 200px;
+            width: auto;
+            font-size: 32px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        /* Estilos para pantallas de 1200px en adelante (Dispositivos de escritorio) */
+        #wb_Heading1 {
+            left: 300px;
+            width: auto;
+            font-size: 36px;
+        }
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <div id="wb_Heading1" style="position:absolute;left:323px;top:135px;width:768px;height:48px;z-index:0;">
+        <h1 id="Heading1">Bienvenidos a mi Pagina Web Gaming</h1>
+    </div>
+    <div id="wb_Text1" style="position:absolute;left:407px;top:183px;width:551px;height:21px;z-index:1;">
+        <span style="color:#DCDCDC;font-family:Georgia;font-size:19px;">Aquí podrás encontrar varios juegos para descargar en tu PC</span>
+    </div>
+    <div id="wb_Heading2" style="position:absolute;left:463px;top:61px;width:489px;height:56px;z-index:2;">
+        <h1 id="Heading2">El Chino Gamer</h1>
+    </div>
+    <a id="Button1" href="./Catalogo-.html" style="position:absolute;left:318px;top:838px;width:136px;height:48px;z-index:3;">Catalogo</a>
+    <div id="wb_Image6" style="position:absolute;left:331px;top:711px;width:111px;height:128px;z-index:4;">
+        <img src="images/right-arrow.gif" id="Image6" alt="">
+    </div>
+    <div id="wb_Image7" style="position:absolute;left:218px;top:220px;width:918px;height:491px;z-index:5;">
+        <img src="images/Imagen.gif" id="Image7" alt="">
+    </div>
+    <a id="Button2" href="https://www.minijuegos.com/juego/super-mario-all-stars" style="position:absolute;left:545px;top:839px;width:136px;height:47px;z-index:8;">Jugar</a>
+    <div id="wb_Image2" style="position:absolute;left:558px;top:711px;width:111px;height:128px;z-index:9;">
+        <img src="images/right-arrow.gif" id="Image2" alt="">
+    </div>
+    <a id="Button4" href="https://www.facebook.com/share/YVtU1edQfE1aAvCp/?mibextid=qi2Omg" style="position:absolute;left:760px;top:838px;width:136px;height:48px;z-index:10;">Pagina Web</a>
+    <div id="wb_Image3" style="position:absolute;left:964px;top:711px;width:111px;height:128px;z-index:11;">
+        <img src="images/right-arrow.gif" id="Image3" alt="">
+    </div>
+    <a id="Button3" href="./Entrar.html" style="position:absolute;left:951px;top:839px;width:136px;height:47px;z-index:6;">Volver</a>
+    <div id="wb_Image1" style="position:absolute;left:773px;top:711px;width:111px;height:128px;z-index:7;">
+        <img src="images/right-arrow.gif" id="Image1" alt="">
+    </div>
+</div>
+
+<script>
+    // Agregar evento onClick al botón "Catalogo" para mostrar una alerta
+    document.getElementById("Button1").addEventListener("click", function() {
+        alert("Aquí podrás descargar juegos para tu PC!!");
+    });
+
+    // Agregar evento onClick al botón "Jugar" para mostrar una alerta
+    document.getElementById("Button2").addEventListener("click", function() {
+        alert("¿Estás listo para jugar?");
+    });
+
+    // Agregar evento onClick al botón "Pagina Web" para mostrar una alerta
+    document.getElementById("Button4").addEventListener("click", function() {
+        alert("¡Bienvenido a mi página web!!");
+    });
+
+    // Agregar evento onClick al botón "Volver" para mostrar confirmación
+    document.getElementById("Button3").addEventListener("click", function() {
+        var respuesta = confirm("¿Quieres volver atrás?");
+        if (respuesta == true) {
+            window.history.back(); // Volver atrás en el historial del navegador
+        } 
+    });
+</script>
+
+</body>
+</html>
