@@ -110,7 +110,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 4px;
    background-color: #48D1CC;
    background-image: none;
-   color: #7B68EE;
+   color: #000000;
    font-family: Georgia;
    font-weight: normal;
    font-style: normal;
@@ -161,7 +161,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 4px;
    background-color: #48D1CC;
    background-image: none;
-   color: #7B68EE;
+   color: #000000;
    font-family: Georgia;
    font-weight: normal;
    font-style: normal;
@@ -198,7 +198,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 4px;
    background-color: #48D1CC;
    background-image: none;
-   color: #9370DB;
+   color: #000000;
    font-family: Georgia;
    font-weight: normal;
    font-style: normal;
@@ -235,7 +235,7 @@ input:focus, textarea:focus, select:focus
    border-radius: 4px;
    background-color: #48D1CC;
    background-image: none;
-   color: #9370DB;
+   color: #000000;
    font-family: Georgia;
    font-weight: normal;
    font-style: normal;
