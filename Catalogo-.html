@@ -209,7 +209,24 @@
 <a id="Button38" href="https://playpaste.com/pivi/?v=jCj" rel="nofollow" style="position:absolute;left:1166px;top:1960px;width:135px;height:37px;z-index:65;">Descargar </a>
 
 </div>
-
+<script>
+// Añadir evento de clic a todos los botones de Descargar
+document.querySelectorAll('a').forEach(function(button) {
+    if (button.id !== "Button14") { // Ignorar el botón Volver
+        button.addEventListener('click', function() {
+            if (confirm('¿Quieres descargar este juego?')) {
+                window.location.href = button.href; // Redirigir si se confirma la descarga
+            }
+        });
+    } else {
+        // Botón Volver
+        button.addEventListener('click', function() {
+            if (confirm('¿Quieres volver a la página de Bienvenida?')) {
+                window.location.href = button.href; // Redirigir si se confirma el regreso
+            }
+        });
+    }
+});
+</script>
 </body>
-
 </html>
