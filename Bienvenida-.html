@@ -30,5 +30,30 @@
 <div id="wb_Image3" style="position:absolute;left:964px;top:711px;width:111px;height:128px;z-index:11;">
 <img src="images/right-arrow.gif" id="Image3" alt=""></div>
 </div>
+ <script>
+    // Agregar evento onClick al botón "Catalogo" para mostrar una alerta
+    document.getElementById("Button1").addEventListener("click", function() {
+        alert("Aquí podrás descargar juegos para tu PC!!");
+    });
+
+    // Agregar evento onClick al botón "Jugar" para mostrar una alerta
+    document.getElementById("Button2").addEventListener("click", function() {
+        alert("¿Estás listo para jugar?");
+    });
+
+    // Agregar evento onClick al botón "Pagina Web" para mostrar una alerta
+    document.getElementById("Button4").addEventListener("click", function() {
+        alert("¡Bienvenido a mi página web!!");
+    });
+
+    // Agregar evento onClick al botón "Volver" para mostrar confirmación
+    document.getElementById("Button3").addEventListener("click", function() {
+        var respuesta = confirm("¿Quieres volver atrás?");
+        if (respuesta == true) {
+            window.history.back(); // Volver atrás en el historial del navegador
+        } 
+    });
+</script>
+
 </body>
-</html>
+</html> 
